@@ -14,6 +14,8 @@ public class Test05 {
 				{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
 			};
 		
+		int sum = 0;
+		
 		for (int i = 1; i < arr.length-1; i++) {
 			System.out.println();
 			for (int j = 1; j < arr[i].length-1; j++)
@@ -24,12 +26,14 @@ public class Test05 {
 					&& arr[i][j] <= arr[i][j-1]) {
 					
 					arr[i][j] = arr[i][j] + 1;
+					
 					System.out.print(arr[i][j]);
 				} else {
 					arr[i][j] = arr[i][j];
+					
 					System.out.print(arr[i][j]);
 				}
-				
+			
 		}
 
 	}
