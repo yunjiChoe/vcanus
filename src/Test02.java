@@ -3,7 +3,7 @@ public class Test02 {
 		
 		
 		
-		int result = + 4 + 5 - 3; //calculator.add(4).add(5).subtract(3);
+		int result = +4 +5 -3; //calculator.add(4).add(5).subtract(3);
 		
 		System.out.println(result);
 	}
